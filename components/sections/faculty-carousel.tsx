@@ -8,14 +8,14 @@ import FacultyCard from "@/components/cards/faculty-card"
 const facultyMembers = [
   {
     id: 1,
-    name: "Dr. Sarah Mitchell",
-    designation: "Faculty Coordinator",
+    name: "Dr.Megha A.Bhelande",
+    designation: "Co-ordinator",
     role: "Arts & Crafts Mentor",
     image: "/faculty-academic-mentor-portrait.jpg",
   },
   {
     id: 2,
-    name: "Prof. David Kumar",
+    name: "Shilpa Adulkar Pawar",
     designation: "Co-Coordinator",
     role: "Technology Advisor",
     image: "/faculty-technology-advisor-portrait.jpg",

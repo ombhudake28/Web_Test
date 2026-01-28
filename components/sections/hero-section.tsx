@@ -9,25 +9,26 @@ export default function HeroSection() {
       </div>
 
       <div className="max-w-4xl mx-auto text-center animate-slide-up">
-        {/* Club Logo Placeholder */}
+        {/* Club Logo Placeholder
         <div className="mb-8 flex justify-center">
           <div className="w-20 h-20 bg-gradient-to-br from-primary via-accent to-secondary rounded-2xl flex items-center justify-center shadow-lg">
             <span className="text-3xl font-bold text-primary-foreground">🎨</span>
           </div>
-        </div>
+        </div> */}
 
         {/* Main Heading */}
         <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
           Welcome to{" "}
           <span className="bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
-            Hobby Club
+            Government Polytechnic Nagpur - Hobby Club
           </span>
         </h1>
 
         {/* Tagline */}
         <p className="text-xl sm:text-2xl text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed">
-          A vibrant community of creative minds, passionate makers, and collaborative thinkers dedicated to exploring
-          hobbies and bringing ideas to life together.
+          Official Hobby Club of Government Polytechnic Nagpur, bringing together creative students to explore hobbies,
+          develop skills, and grow together.
+
         </p>
 
         {/* CTA Buttons */}

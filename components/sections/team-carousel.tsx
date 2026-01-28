@@ -6,40 +6,82 @@ import TeamCard from "@/components/cards/team-card"
 
 // Sample team data - replace with API call
 const teamMembers = [
+   {
+    id: 1,
+    name: "Aditya Ahire",
+    role: "Past President",
+    image: "/young-creative-professional-portrait.jpg",
+    description: "Provided strong leadership and laid a solid foundation for the Hobby Club’s growth.",
+  },
   {
     id: 1,
-    name: "Alex Johnson",
-    role: "Creative Lead",
+    name: "Om Bhudake",
+    role: "President",
     image: "/young-creative-professional-portrait.jpg",
-    description: "Passionate about digital art and UI design. Always exploring new creative techniques.",
+    description: "Leads the Hobby Club, takes final decisions, and represents the club in official activities.",
   },
   {
     id: 2,
-    name: "Sarah Chen",
-    role: "Community Manager",
-    image: "/friendly-community-manager-portrait.jpg",
-    description: "Connects members and organizes amazing events. Heart of our community.",
+    name: "Bhagyashree Sahani",
+    role: "Vice President",
+    image: "/bhageshree_di.jpeg",
+    description: "Supports the President and manages club work when the President is unavailable.",
   },
   {
     id: 3,
-    name: "Marcus Williams",
-    role: "Tech Coordinator",
-    image: "/tech-enthusiast-developer-portrait.jpg",
-    description: "Tech wizard who keeps everything running. Loves coding and gaming.",
+    name: "Dnyanesh Kawadkar",
+    role: "Technical Head",
+    image: "/dnyanesh.jpeg",
+    description: "Handles technical work like website, posters, and digital support for events.",
   },
   {
     id: 4,
-    name: "Emma Davis",
-    role: "Designer",
+    name: "Shantanu Aher",
+    role: "Treasurer",
     image: "/graphic-designer-creative-portrait.jpg",
-    description: "Visual storyteller with a passion for branding and illustration.",
+    description: "Manages funds, keeps records of income and expenses of the club.",
   },
   {
     id: 5,
-    name: "James Wilson",
-    role: "Event Specialist",
-    image: "/event-organizer-professional-portrait.jpg",
-    description: "Master planner who creates unforgettable experiences for our members.",
+    name: "Yamini Ghagre",
+    role: "Event Manager",
+    image: "/yamini.jpeg",
+    description: "Plans and manages events, competitions, and activities of the Hobby Club..",
+  },
+  {
+    id: 1,
+    name: "Sakshi Khonde",
+    role: "Head oragnizer",
+    image: "/sakshi.jpeg",
+    description: "Organizes volunteers and ensures smooth execution of all events.",
+  },
+  {
+    id: 2,
+    name: "Ritesh Daud",
+    role: "Executive Member",
+    image: "/friendly-community-manager-portrait.jpg",
+    description: "Helps in planning, promotion, and successful execution of club activities.",
+  },
+  {
+    id: 3,
+    name: "Chaitanya Farkade",
+    role: "Executive Member",
+    image: "/tech-enthusiast-developer-portrait.jpg",
+    description: "Helps in planning, promotion, and successful execution of club activities.",
+  },
+  {
+    id: 4,
+    name: "Anagha Kenodkar",
+    role: "Executive Member",
+    image: "/anagha.png",
+    description: "Helps in planning, promotion, and successful execution of club activities.",
+  },
+  {
+    id: 5,
+    name: "Pooja Aaglave",
+    role: "Executive Member",
+    image: "/pooja.jpeg",
+    description: "Helps in planning, promotion, and successful execution of club activities.",
   },
 ]
 
@@ -59,9 +101,9 @@ export default function TeamCarousel() {
       <div className="max-w-6xl mx-auto">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">Meet Our Team</h2>
+          <h2 className="text-4xl sm:text-5xl font-bold text-foreground mb-4">Our Core Committee</h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            Talented individuals driving our community forward with creativity and passion
+            The official team of student members responsible for organizing and managing all Hobby Club activities at Government Polytechnic Nagpur.
           </p>
         </div>
 
